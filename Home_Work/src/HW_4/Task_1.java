@@ -1,6 +1,9 @@
+package HW_4;
+
 import java.util.Scanner;
-public class Task1 {
-    public static void main(String[] args) {
+
+public class Task_1 {
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         StringBuilder sentence = new StringBuilder();
 
@@ -16,8 +19,10 @@ public class Task1 {
             sentence.append(word).append(" ");
         }
 
-        System.out.println("\nПобудоване речення:");
+        System.out.println("Побудоване речення:");
         System.out.println(sentence.toString().trim());
     }
 }
+
+
 
